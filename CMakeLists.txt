@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.22 FATAL_ERROR)
+
+project(main VERSION 1.0)
+
+set(C_FLAGS "-Wall -g")
+set(CMAKE_BUILD_TYPE Debug)
+add_executable(main main.c matrix.c neural_network.c)
+
+include_directories("/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers/")
+include_directories("data/")
+target_link_libraries(main "-framework Accelerate")
