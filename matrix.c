@@ -25,7 +25,9 @@ void free_matrix(matrix* mat) {
 matrix matrix_m_multiply(matrix* A, matrix* B, matrix* C, double alpha, double beta, uint8_t tranpose) {
   uint8_t t1 = CblasNoTrans;
   uint8_t t2 = CblasNoTrans;
-  uint64_t M = 0, N = 0, K = 0;
+  uint64_t M = A->row_size;
+  uint64_t N = B->column_size;
+  uint64_t K = A->column_size;
   if (tranpose == 0) {
     assert(A->column_size == B->row_size);
     assert(C->row_size == A->row_size && C->column_size == B->column_size);
@@ -37,30 +39,21 @@ matrix matrix_m_multiply(matrix* A, matrix* B, matrix* C, double alpha, double b
     assert(A->row_size == B->row_size);
     assert(A->column_size == C->row_size && C->column_size == B->column_size);
     t1 = CblasTrans;
-    M = A->column_size;
-    N = B->column_size;
-    K = A->row_size;
   }
   else if(tranpose == 2) {
     assert(A->column_size == B->column_size);
     assert(A->row_size == C->row_size && C->column_size == B->row_size);
     t2 = CblasTrans;
-    M = A->row_size;
-    N = B->row_size;
-    K = A->column_size;
   }
   else if(tranpose == 3) {
     assert(A->row_size == B->column_size);
     assert(A->column_size == C->row_size && C->column_size == B->row_size);
     t1 = CblasTrans;
     t2 = CblasTrans;
-    M = A->column_size;
-    N = B->row_size;
-    K = A->row_size;
   }
   matrix C_copy = create_matrix(C->row_size, C->column_size);
   memcpy(C_copy.array, C->array, C->row_size * C->column_size * sizeof(double));
-  cblas_dgemm(CblasRowMajor, CblasNoTrans, CblasNoTrans, M, N, K, alpha, A->array, K, B->array, N, beta, C_copy.array, N);
+  cblas_dgemm(CblasRowMajor, t1, t2, M, N, K, alpha, A->array, K, B->array, N, beta, C_copy.array, N);
   return C_copy;
 }
 
