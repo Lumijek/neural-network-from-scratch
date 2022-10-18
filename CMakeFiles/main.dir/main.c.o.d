@@ -73,6 +73,7 @@ CMakeFiles/main.dir/main.c.o: /Users/aayush/desktop/c-deeplearning/main.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mode_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_clock_t.h \
@@ -88,4 +89,22 @@ CMakeFiles/main.dir/main.c.o: /Users/aayush/desktop/c-deeplearning/main.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Accelerate.framework/Versions/Current/Frameworks/vecLib.framework/Headers/cblas.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/os/availability.h \
-  /Users/aayush/desktop/c-deeplearning/neural_network.h
+  /Users/aayush/desktop/c-deeplearning/neural_network.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_seek_set.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_gid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/select.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_def.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_set.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_select.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uuid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/gethostuuid.h

@@ -73,43 +73,43 @@ CMakeFiles/main.dir/main.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.c.o: main.c
 CMakeFiles/main.dir/main.c.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aayush/desktop/c-deeplearning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main.c.o -MF CMakeFiles/main.dir/main.c.o.d -o CMakeFiles/main.dir/main.c.o -c /Users/aayush/desktop/c-deeplearning/main.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main.c.o -MF CMakeFiles/main.dir/main.c.o.d -o CMakeFiles/main.dir/main.c.o -c /Users/aayush/desktop/c-deeplearning/main.c
 
 CMakeFiles/main.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aayush/desktop/c-deeplearning/main.c > CMakeFiles/main.dir/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aayush/desktop/c-deeplearning/main.c > CMakeFiles/main.dir/main.c.i
 
 CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aayush/desktop/c-deeplearning/main.c -o CMakeFiles/main.dir/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aayush/desktop/c-deeplearning/main.c -o CMakeFiles/main.dir/main.c.s
 
 CMakeFiles/main.dir/matrix.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/matrix.c.o: matrix.c
 CMakeFiles/main.dir/matrix.c.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aayush/desktop/c-deeplearning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/matrix.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/matrix.c.o -MF CMakeFiles/main.dir/matrix.c.o.d -o CMakeFiles/main.dir/matrix.c.o -c /Users/aayush/desktop/c-deeplearning/matrix.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/matrix.c.o -MF CMakeFiles/main.dir/matrix.c.o.d -o CMakeFiles/main.dir/matrix.c.o -c /Users/aayush/desktop/c-deeplearning/matrix.c
 
 CMakeFiles/main.dir/matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/matrix.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aayush/desktop/c-deeplearning/matrix.c > CMakeFiles/main.dir/matrix.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aayush/desktop/c-deeplearning/matrix.c > CMakeFiles/main.dir/matrix.c.i
 
 CMakeFiles/main.dir/matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/matrix.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aayush/desktop/c-deeplearning/matrix.c -o CMakeFiles/main.dir/matrix.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aayush/desktop/c-deeplearning/matrix.c -o CMakeFiles/main.dir/matrix.c.s
 
 CMakeFiles/main.dir/neural_network.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/neural_network.c.o: neural_network.c
 CMakeFiles/main.dir/neural_network.c.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aayush/desktop/c-deeplearning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/neural_network.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/neural_network.c.o -MF CMakeFiles/main.dir/neural_network.c.o.d -o CMakeFiles/main.dir/neural_network.c.o -c /Users/aayush/desktop/c-deeplearning/neural_network.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/neural_network.c.o -MF CMakeFiles/main.dir/neural_network.c.o.d -o CMakeFiles/main.dir/neural_network.c.o -c /Users/aayush/desktop/c-deeplearning/neural_network.c
 
 CMakeFiles/main.dir/neural_network.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/neural_network.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aayush/desktop/c-deeplearning/neural_network.c > CMakeFiles/main.dir/neural_network.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aayush/desktop/c-deeplearning/neural_network.c > CMakeFiles/main.dir/neural_network.c.i
 
 CMakeFiles/main.dir/neural_network.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/neural_network.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aayush/desktop/c-deeplearning/neural_network.c -o CMakeFiles/main.dir/neural_network.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aayush/desktop/c-deeplearning/neural_network.c -o CMakeFiles/main.dir/neural_network.c.s
 
 # Object files for target main
 main_OBJECTS = \

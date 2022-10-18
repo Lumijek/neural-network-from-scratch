@@ -114,6 +114,7 @@ CMakeFiles/main.dir/neural_network.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ucontext.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/assert.h \
   /Users/aayush/desktop/c-deeplearning/neural_network.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/wait.h \
