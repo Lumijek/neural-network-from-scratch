@@ -6,7 +6,7 @@
 
 typedef matrix (*activation_function)(matrix* activations);
 
-
+void print(matrix m);
 double randfrom(double min, double max);
 
 typedef struct layer{
@@ -36,7 +36,7 @@ matrix forward_pass(neural_network* network, matrix* inputs);
 void back_propagate(neural_network* network, matrix* inputs, matrix* y_true);
 
 matrix linear_function(layer* linear_layer, matrix* activations);
-layer linear(uint64_t in, uint64_t out, uint16_t batch_size, char* activation);
+layer linear(uint64_t in, uint64_t out, char* activation);
 
 matrix relu(matrix* activations);
 layer ReLU();
