@@ -1,1 +1,3 @@
 # neural-network-from-scratch
+
+That doesn't work and I don't know why...
