@@ -1,0 +1,3 @@
+/Users/aayush/Downloads/minimal_mnist_repo/build/CMakeFiles/main.dir
+/Users/aayush/Downloads/minimal_mnist_repo/build/CMakeFiles/edit_cache.dir
+/Users/aayush/Downloads/minimal_mnist_repo/build/CMakeFiles/rebuild_cache.dir
