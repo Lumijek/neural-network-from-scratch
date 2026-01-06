@@ -1,1 +1,0 @@
-/usr/bin/cc   -I/opt/local/include -Wall  -O3 -mcpu=apple-m1  -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/matrix.c.o CMakeFiles/main.dir/neural_network.c.o CMakeFiles/main.dir/idx_loader.c.o -o main  -framework Accelerate
